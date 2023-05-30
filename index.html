@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme"class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color ="hsl(214,84%,56%)" class="colors__item colors__item--blue"></div>
+        <div data-color ="hsl(109, 79%, 43%)" class="colors__item colors__item--green"></div>
+        <div data-color ="hsl(276, 79%, 35%)" class="colors__item colors__item--purple"></div>
+        <div data-color ="hsl(40, 90%, 47%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!--PROFAIL CARD-->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/profile.jpg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title no_margin">Edvin Canastuj</h2>
+          <p class="card__subtitle">Junior Programmer</p>
+        </div>
+        <div class="car__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:edvinjcv66@gmail.com">edvinjcv66@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:45613566">+502-45613566</a>
+          </div>
+          <p class="card__text">
+            Soy un apasionado del desarrollo web con habilidades sólidas en HTML, 
+            CSS y JavaScript para crear sitios web dinámicos y atractivos. 
+            También tengo experiencia en Python para desarrollar aplicaciones web y 
+            automatizar tareas. Mi conocimiento en bases de datos SQL me permite diseñar y 
+            administrar bases de datos eficaces. Si buscas un desarrollador web versátil con conocimientos en estas tecnologías, 
+            estoy emocionado de colaborar en proyectos desafiantes y hacer 
+            realidad tus ideas web.
+            </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <h2 class="card__title">Experiencies</h2>
+        <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time">
+              Feb 2017 - Current
+            </p>
+            <h3 class="experience__job">Front End Developer</h3>
+            <p class="experience__description">descripcion del trabajo </p>
+          </div>
+        </div>
+      </article>
+      </section> 
+       <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title no_margin">Backend</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Python</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Express.js</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Django</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MySql</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Oracle</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Sql Server</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title no_margin">Frontend</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Bootstrap</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </article>
+        
+        
+        <article class="card ">
+          <h2 class="card__title no_margin">Desing</h2>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Canva</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">Ilustrator</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Lading page" class="card__image">
+          </div>
+        </article>
+       </section>
+    </main>
+    <script src="jvs/scripts.js"></script>
+  </body>
+</html>
