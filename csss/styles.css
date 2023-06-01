@@ -61,9 +61,7 @@
     align-items: center;
     justify-content: space-between; 
   }
-  .flags__item{
-    width: 30px;
-  }
+  
   .flags__img{
     display: block;
     cursor: pointer;
@@ -132,12 +130,13 @@
   background-color: var(--bg-card-color);
   border-radius: var(--border-radius);
 }
-.card__image-container{
+.card__image-container {
   min-width: 320px;
   border-radius: var(--border-radius);
   overflow: hidden;
 
 }
+
 .card__header{
   padding: 1em 0;
 }
@@ -288,7 +287,7 @@
 }
 @media screen and (min-width: 760px) {
   .buttons{
-    position: absolute;
+    
     bottom: 1em;
   }
 }
