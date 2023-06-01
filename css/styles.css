@@ -144,7 +144,12 @@
 .card__text{
   font-size: 0.9rem;
   line-height: 1.5;
-  text-align: justify;
+
+}
+.card--project {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  grid-column: 1 / -1;
 }
 .skills{
   padding: 1em 0;
