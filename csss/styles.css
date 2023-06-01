@@ -285,12 +285,7 @@
   justify-content: space-between;
   width: 255px;
 }
-@media screen and (min-width: 760px) {
-  .buttons{
-    position: relative;
-    bottom: 1em;
-  }
-}
+
 .button{
   width: 100px;
   line-height: 2.5;
